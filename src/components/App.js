@@ -20,8 +20,10 @@ const App = () => {
       .then((res)=>res.json())
       .then((res)=>setWeatherDetail(res))
       .catch((err)=>console.log(err))
-    
+
     }
+
+    setArea('')
 
   }
 
